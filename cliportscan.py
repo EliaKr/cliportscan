@@ -1,7 +1,7 @@
 import time
 import socket
 
-socket.setdefaulttimeout(10)
+socket.setdefaulttimeout(8)
 a_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
 openports = []
