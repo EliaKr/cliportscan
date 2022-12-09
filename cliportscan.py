@@ -37,4 +37,7 @@ for i in range(startport, endport + 1):
     else:
         time.sleep(0.001)
 
-print(len(openports), "open ports were found:", openports)
+if len(openports) == 1:
+    print(len(openports), "open port was found:", openports)
+else:
+    print(len(openports), "open ports were found:", openports)
