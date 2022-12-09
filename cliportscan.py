@@ -12,7 +12,8 @@ def checkport(location):
         return(True)
     else:
         return(False)
-
+    
+print("Welcome to cliportscan. Use to scan multiple ports may be blocked by device being scanned.")
 print("Enter Target IP Address:")
 target = input()
 
