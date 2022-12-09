@@ -1,2 +1,2 @@
 # cliportscan
-A simple cli port scanner
+A simple cli port scanner written in Python.
